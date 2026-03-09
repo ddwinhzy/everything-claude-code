@@ -1,0 +1,728 @@
+# Instincts generated from https://github.com/ddwinhzy/everything-claude-code
+# Generated: 2026-03-06T06:28:35.237Z
+# Version: 2.0
+
+---
+id: everything-claude-code-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Commit Length
+
+## Action
+
+Write moderate-length commit messages (~50 characters)
+
+## Evidence
+
+- Average commit message length: 69 chars
+- Based on 200 commits
+
+---
+id: everything-claude-code-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: everything-claude-code-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Export Style
+
+## Action
+
+Prefer mixed exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: mixed
+
+---
+id: everything-claude-code-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: everything-claude-code-test-framework
+trigger: "when writing tests"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Test Framework
+
+## Action
+
+Use unknown as the test framework
+
+## Evidence
+
+- Test framework detected: unknown
+- File pattern: *.test.js
+
+---
+id: everything-claude-code-test-naming
+trigger: "when creating a test file"
+confidence: 0.85
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Test Naming
+
+## Action
+
+Name test files using the pattern: *.test.js
+
+## Evidence
+
+- File pattern: *.test.js
+- Consistent across test files
+
+---
+id: everything-claude-code-test-types
+trigger: "when planning tests for a feature"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Test Types
+
+## Action
+
+Write unit, integration tests to match project standards
+
+## Evidence
+
+- Test types detected: unit, integration
+- Coverage config: yes
+
+---
+id: everything-claude-code-workflow-database-migration
+trigger: "when modifying the database schema or adding tables"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Database Migration
+
+## Action
+
+Follow the database-migration workflow:
+1. Create migration file
+2. Update schema definitions
+3. Generate/update types
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: migrations/*
+
+---
+id: everything-claude-code-workflow-feature-development
+trigger: "when implementing a new feature"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Feature Development
+
+## Action
+
+Follow the feature-development workflow:
+1. Add feature implementation
+2. Add tests for feature
+3. Update documentation
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~14x per month
+- Files: .opencode/*, .opencode/plugins/*, .opencode/tools/*
+
+---
+id: everything-claude-code-workflow-test-driven-development
+trigger: "when adding new functionality"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Test Driven Development
+
+## Action
+
+Follow the test-driven-development workflow:
+1. Write failing test
+2. Implement code to pass test
+3. Refactor if needed
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: **/*.test.*, **/*.spec.*, src/**/*
+
+---
+id: everything-claude-code-workflow-version-release
+trigger: "when doing version release"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Version Release
+
+## Action
+
+Follow the version-release workflow:
+1. Update version in package.json
+2. Update plugin manifests (.claude-plugin/)
+3. Update CHANGELOG.md
+4. Create release documentation
+5. Tag and publish
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: package.json, .claude-plugin/marketplace.json, .claude-plugin/plugin.json
+
+---
+id: everything-claude-code-workflow-cross-platform-skill-addition
+trigger: "when doing cross platform skill addition"
+confidence: 0.75
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Cross Platform Skill Addition
+
+## Action
+
+Follow the cross-platform-skill-addition workflow:
+1. Create skill in skills/ directory
+2. Add to .cursor/skills/
+3. Add to .agents/skills/ with openai.yaml
+4. Update README.md
+5. Update platform configs
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~5x per month
+- Files: skills/*/SKILL.md, .cursor/skills/*/SKILL.md, .agents/skills/*/SKILL.md
+
+---
+id: everything-claude-code-workflow-documentation-translation-sync
+trigger: "when doing documentation translation sync"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Documentation Translation Sync
+
+## Action
+
+Follow the documentation-translation-sync workflow:
+1. Update English docs
+2. Sync changes to docs/zh-CN/
+3. Sync changes to docs/zh-TW/
+4. Sync changes to docs/ja-JP/
+5. Maintain file structure parity
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: README.md, docs/zh-CN/*, docs/zh-TW/*
+
+---
+id: everything-claude-code-workflow-hook-system-enhancement
+trigger: "when doing hook system enhancement"
+confidence: 0.7
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Hook System Enhancement
+
+## Action
+
+Follow the hook-system-enhancement workflow:
+1. Update hooks.json
+2. Add/modify script in scripts/hooks/
+3. Update .cursor/hooks/
+4. Add tests in tests/hooks/ or tests/integration/
+5. Update hook documentation
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~4x per month
+- Files: hooks/hooks.json, scripts/hooks/*.js, .cursor/hooks/*.js
+
+---
+id: everything-claude-code-workflow-multi-command-updates
+trigger: "when doing multi command updates"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Multi Command Updates
+
+## Action
+
+Follow the multi-command-updates workflow:
+1. Update base command in commands/
+2. Update all multi-* variants
+3. Sync translations in docs/ja-JP/commands/
+4. Sync translations in docs/zh-CN/commands/
+5. Test consistency
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: commands/multi-*.md, docs/ja-JP/commands/multi-*.md, docs/zh-CN/commands/multi-*.md
+
+---
+id: everything-claude-code-workflow-continuous-learning-system-updates
+trigger: "when doing continuous learning system updates"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Continuous Learning System Updates
+
+## Action
+
+Follow the continuous-learning-system-updates workflow:
+1. Update skill documentation
+2. Modify observer agents
+3. Update instinct scripts
+4. Add new commands for instinct management
+5. Update configuration files
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: skills/continuous-learning-v2/SKILL.md, skills/continuous-learning-v2/agents/*, skills/continuous-learning-v2/scripts/*
+
+---
+id: everything-claude-code-workflow-plugin-manifest-sync
+trigger: "when doing plugin manifest sync"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Workflow Plugin Manifest Sync
+
+## Action
+
+Follow the plugin-manifest-sync workflow:
+1. Update .claude-plugin/plugin.json version
+2. Update .claude-plugin/marketplace.json
+3. Sync with package.json version
+4. Update component declarations
+5. Validate plugin manifests
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: .claude-plugin/plugin.json, .claude-plugin/marketplace.json, package.json
+
+---
+id: everything-claude-code-conventional-commits
+trigger: "When creating a commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Conventional Commits
+
+## Action
+
+Use conventional commit format with type(scope): description pattern
+
+## Evidence
+
+- feat(CLI): Add Antigravity IDE support via `--target antigravity` flag
+- fix: normalize hook command execution in integration tests
+- docs: add upstream tracking flag to push example (#327)
+
+---
+id: everything-claude-code-camel-case-files
+trigger: "When naming JavaScript/TypeScript files"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Camel Case Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Pattern observed in .opencode/package.json
+- eslint.config.js
+- File naming conventions analysis
+
+---
+id: everything-claude-code-pascal-case-classes
+trigger: "When naming classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Pascal Case Classes
+
+## Action
+
+Use PascalCase naming convention
+
+## Evidence
+
+- Code style analysis shows PascalCase for classes
+- Standard JavaScript convention in repository
+
+---
+id: everything-claude-code-screaming-snake-constants
+trigger: "When defining constants"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Screaming Snake Constants
+
+## Action
+
+Use SCREAMING_SNAKE_CASE naming convention
+
+## Evidence
+
+- Code style analysis shows SCREAMING_SNAKE_CASE for constants
+- Standard pattern in JavaScript codebase
+
+---
+id: everything-claude-code-test-file-pattern
+trigger: "When creating test files"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Test File Pattern
+
+## Action
+
+Name test files with *.test.js pattern
+
+## Evidence
+
+- Testing framework shows *.test.js pattern
+- fix: stabilize windows hook and claw tests
+
+---
+id: everything-claude-code-try-catch-errors
+trigger: "When handling errors"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Try Catch Errors
+
+## Action
+
+Use try-catch blocks for error handling
+
+## Evidence
+
+- Error handling analysis shows try-catch style
+- No custom error classes or global handlers detected
+
+---
+id: everything-claude-code-version-release-workflow
+trigger: "When preparing a version release"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Version Release Workflow
+
+## Action
+
+Update package.json, plugin manifests, CHANGELOG.md, create release docs, then tag
+
+## Evidence
+
+- Version release workflow detected with frequency 2
+- Files: package.json, .claude-plugin/*, CHANGELOG.md, docs/releases/*
+
+---
+id: everything-claude-code-cross-platform-skill
+trigger: "When adding a new skill"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Cross Platform Skill
+
+## Action
+
+Create in skills/, add to .cursor/skills/, .agents/skills/, update README.md and platform configs
+
+## Evidence
+
+- Cross-platform skill workflow frequency 5
+- Merge pull request #250 from OkminLee/feat/skills/ios26-three-skills
+- Multiple skill directories: skills/, .cursor/skills/, .agents/skills/
+
+---
+id: everything-claude-code-doc-translation-sync
+trigger: "When updating core documentation"
+confidence: 0.85
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Doc Translation Sync
+
+## Action
+
+Update English docs first, then sync to docs/zh-CN/, docs/zh-TW/, docs/ja-JP/
+
+## Evidence
+
+- Documentation translation workflow frequency 3
+- Multiple language directories detected
+- File structure parity maintenance pattern
+
+---
+id: everything-claude-code-hook-system-enhancement
+trigger: "When adding or modifying hooks"
+confidence: 0.88
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Hook System Enhancement
+
+## Action
+
+Update hooks.json, modify scripts/hooks/, update .cursor/hooks/, add tests, update documentation
+
+## Evidence
+
+- Hook system workflow frequency 4
+- fix: normalize hook command execution in integration tests
+- Hook files: hooks/hooks.json, scripts/hooks/*, .cursor/hooks/*
+
+---
+id: everything-claude-code-multi-command-consistency
+trigger: "When modifying multi-* commands"
+confidence: 0.92
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Multi Command Consistency
+
+## Action
+
+Update base command, update all multi-* variants, sync translations consistently
+
+## Evidence
+
+- Multi-command workflow frequency 2
+- Commands pattern: commands/multi-*.md
+- Translation sync in docs/ja-JP/commands/, docs/zh-CN/commands/
+
+---
+id: everything-claude-code-learning-system-updates
+trigger: "When improving continuous learning functionality"
+confidence: 0.87
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Learning System Updates
+
+## Action
+
+Update skill docs, modify observer agents, update instinct scripts, add management commands
+
+## Evidence
+
+- Continuous learning workflow frequency 3
+- Files: skills/continuous-learning-v2/*, commands/instinct-*.md
+- Observer agents and instinct management pattern
+
+---
+id: everything-claude-code-plugin-manifest-sync
+trigger: "When version changes or plugin capabilities update"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Plugin Manifest Sync
+
+## Action
+
+Sync .claude-plugin/plugin.json, .claude-plugin/marketplace.json with package.json version
+
+## Evidence
+
+- Plugin manifest sync workflow frequency 3
+- Files: .claude-plugin/plugin.json, .claude-plugin/marketplace.json, package.json
+- Version synchronization pattern
+
+---
+id: everything-claude-code-feature-with-tests
+trigger: "When implementing a new feature"
+confidence: 0.8
+domain: workflow
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Feature With Tests
+
+## Action
+
+Add feature implementation, add tests, update documentation in sequence
+
+## Evidence
+
+- Feature development workflow frequency 14
+- feat: add security guides and sanitize external links across repo
+- Test types: unit, integration with coverage
+
+---
+id: everything-claude-code-pr-reference
+trigger: "When creating commits for pull requests"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Pr Reference
+
+## Action
+
+Include PR number reference in commit message format
+
+## Evidence
+
+- docs: add upstream tracking flag to push example (#327)
+- Merge pull request #334 from affaan-m/codex/release-1.8.0-core
+- feat(agents): add chief-of-staff communication triage agent (#280)
+
+---
+id: everything-claude-code-separate-test-location
+trigger: "When organizing test files"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: ddwinhzy/everything-claude-code
+---
+
+# Everything Claude Code Separate Test Location
+
+## Action
+
+Keep tests in separate location from source code
+
+## Evidence
+
+- Architecture analysis shows testLocation: separate
+- Test files pattern in dedicated test directories
+
