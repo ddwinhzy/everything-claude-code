@@ -1,3 +1,8 @@
+---
+description: 启动带有安全默认值的托管自主循环模式
+agent: build
+---
+
 # Loop Start Command
 
 Start a managed autonomous loop pattern with safety defaults.

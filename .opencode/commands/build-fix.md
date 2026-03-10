@@ -1,5 +1,5 @@
 ---
-description: Fix build and TypeScript errors with minimal changes
+description: 用最小改动修复构建和 TypeScript 错误
 agent: build-error-resolver
 subtask: true
 ---

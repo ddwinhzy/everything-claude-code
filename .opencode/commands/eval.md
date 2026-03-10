@@ -1,5 +1,5 @@
 ---
-description: Run evaluation against acceptance criteria
+description: 根据验收标准运行评估
 agent: build
 ---
 

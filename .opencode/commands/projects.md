@@ -1,5 +1,5 @@
 ---
-description: List registered projects and instinct counts
+description: 列出已注册的项目和本能数量
 agent: build
 ---
 

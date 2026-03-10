@@ -1,5 +1,5 @@
 ---
-description: Remove dead code and consolidate duplicates
+description: 删除死代码并整合重复代码
 agent: refactor-cleaner
 subtask: true
 ---

@@ -1,5 +1,5 @@
 ---
-description: Import instincts from external sources
+description: 从外部来源导入本能
 agent: build
 ---
 

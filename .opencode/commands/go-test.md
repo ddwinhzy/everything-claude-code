@@ -1,5 +1,5 @@
 ---
-description: Go TDD workflow with table-driven tests
+description: Go TDD 工作流，使用表驱动测试
 agent: tdd-guide
 subtask: true
 ---

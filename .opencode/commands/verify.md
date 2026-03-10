@@ -1,5 +1,5 @@
 ---
-description: Run verification loop to validate implementation
+description: 运行验证循环以验证实现
 agent: build
 ---
 

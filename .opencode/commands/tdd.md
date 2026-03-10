@@ -1,5 +1,5 @@
 ---
-description: Enforce TDD workflow with 80%+ coverage
+description: 强制执行 TDD 工作流，要求 80% 以上覆盖率
 agent: tdd-guide
 subtask: true
 ---

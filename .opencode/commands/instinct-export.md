@@ -1,5 +1,5 @@
 ---
-description: Export instincts for sharing
+description: 导出本能以供分享
 agent: build
 ---
 

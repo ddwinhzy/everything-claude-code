@@ -1,5 +1,5 @@
 ---
-description: Analyze instincts and suggest or generate evolved structures
+description: 分析本能并建议或生成演进结构
 agent: build
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: Show learned instincts (project + global) with confidence
+description: 显示已学习的本能（项目+全局）及置信度
 agent: build
 ---
 

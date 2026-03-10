@@ -1,5 +1,5 @@
 ---
-description: Generate skills from git history analysis
+description: 从 git 历史分析生成 skills
 agent: build
 ---
 

@@ -1,3 +1,8 @@
+---
+description: 审计当前仓库的代理框架设置并返回优先评分卡
+agent: build
+---
+
 # Harness Audit Command
 
 Audit the current repository's agent harness setup and return a prioritized scorecard.

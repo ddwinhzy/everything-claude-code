@@ -1,5 +1,5 @@
 ---
-description: Create implementation plan with risk assessment
+description: 创建带有风险评估的实施计划
 agent: planner
 subtask: true
 ---

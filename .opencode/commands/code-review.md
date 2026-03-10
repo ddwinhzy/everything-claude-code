@@ -1,5 +1,5 @@
 ---
-description: Review code for quality, security, and maintainability
+description: 审查代码的质量、安全性和可维护性
 agent: code-reviewer
 subtask: true
 ---

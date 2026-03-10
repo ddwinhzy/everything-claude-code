@@ -1,5 +1,5 @@
 ---
-description: Configure package manager preference
+description: 配置包管理器偏好
 agent: build
 ---
 

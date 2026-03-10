@@ -1,3 +1,8 @@
+---
+description: 检查活动循环的状态、进度和失败信号
+agent: build
+---
+
 # Loop Status Command
 
 Inspect active loop state, progress, and failure signals.

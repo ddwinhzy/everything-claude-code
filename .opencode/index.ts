@@ -1,10 +1,12 @@
 /**
  * Everything Claude Code (ECC) Plugin for OpenCode
  *
- * This package provides the published ECC OpenCode plugin module:
+ * This package provides a complete OpenCode plugin with:
+ * - 13 specialized agents (planner, architect, code-reviewer, etc.)
+ * - 31 commands (/plan, /tdd, /code-review, etc.)
  * - Plugin hooks (auto-format, TypeScript check, console.log warning, env injection, etc.)
  * - Custom tools (run-tests, check-coverage, security-audit, format-code, lint-check, git-summary)
- * - Bundled reference config/assets for the wider ECC OpenCode setup
+ * - 37 skills (coding-standards, security-review, tdd-workflow, etc.)
  *
  * Usage:
  *
@@ -19,10 +21,6 @@
  *   "plugin": ["ecc-universal"]
  * }
  * ```
- *
- * That enables the published plugin module only. For ECC commands, agents,
- * prompts, and instructions, use this repository's `.opencode/opencode.json`
- * as a base or copy the bundled `.opencode/` assets into your project.
  *
  * Option 2: Clone and use directly
  * ```bash
@@ -53,7 +51,6 @@ export const metadata = {
     agents: 13,
     commands: 31,
     skills: 37,
-    configAssets: true,
     hookEvents: [
       "file.edited",
       "tool.execute.before",

@@ -1,5 +1,5 @@
 ---
-description: Promote project instincts to global scope
+description: 将项目本能提升到全局范围
 agent: build
 ---
 

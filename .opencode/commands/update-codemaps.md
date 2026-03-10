@@ -1,5 +1,5 @@
 ---
-description: Update codemaps for codebase navigation
+description: 更新代码地图以便代码库导航
 agent: doc-updater
 subtask: true
 ---

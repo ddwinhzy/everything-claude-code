@@ -1,5 +1,5 @@
 ---
-description: Save verification state and progress checkpoint
+description: 保存验证状态和进度检查点
 agent: build
 ---
 

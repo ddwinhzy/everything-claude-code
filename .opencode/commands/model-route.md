@@ -1,3 +1,8 @@
+---
+description: 根据复杂度和预算推荐当前任务的最佳模型层级
+agent: build
+---
+
 # Model Route Command
 
 Recommend the best model tier for the current task by complexity and budget.

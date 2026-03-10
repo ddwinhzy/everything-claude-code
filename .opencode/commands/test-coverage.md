@@ -1,5 +1,5 @@
 ---
-description: Analyze and improve test coverage
+description: 分析并提高测试覆盖率
 agent: tdd-guide
 subtask: true
 ---

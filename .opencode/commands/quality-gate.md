@@ -1,3 +1,8 @@
+---
+description: 按需在文件或项目范围内运行 ECC 质量流水线
+agent: build
+---
+
 # Quality Gate Command
 
 Run the ECC quality pipeline on demand for a file or project scope.

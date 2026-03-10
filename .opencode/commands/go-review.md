@@ -1,5 +1,5 @@
 ---
-description: Go code review for idiomatic patterns
+description: Go 代码审查，检查惯用模式
 agent: go-reviewer
 subtask: true
 ---

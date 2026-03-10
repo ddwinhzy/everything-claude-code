@@ -1,5 +1,5 @@
 ---
-description: Extract patterns and learnings from current session
+description: 从当前会话中提取模式和学习内容
 agent: build
 ---
 

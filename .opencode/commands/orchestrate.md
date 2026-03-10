@@ -1,5 +1,5 @@
 ---
-description: Orchestrate multiple agents for complex tasks
+description: 协调多个代理完成复杂任务
 agent: planner
 subtask: true
 ---
